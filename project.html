@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html lang="es">
-
+<!--Esta é a páxina correspondente aos proxectos-->
 <head>
     <meta charset="UTF-8">
     <link href="https://fonts.googleapis.com/css?family=Open+Sans:400" rel="stylesheet" />
@@ -10,7 +10,7 @@
 </head>
 
 <body>
-
+<!--Cada sección corresponde a cada uno de los proyectos-->
 <section id="project_1" style="display:none">
   <img id="project-img" src="img/projects/project-01.jpg" alt="Imaxe dunha pantalla de ordenador con código">/>
   <h1 class="tm-text-black tm-contact-title">Proxectos web en activo:</h1>
@@ -114,6 +114,10 @@ Aliquam dignissim urna velit, vel aliquet risus egestas nec. Curabitur et tincid
 <script src="js/jquery.min.js"></script>
 
 <script>
+  /*O seguinte código carga o proxecto correspondente ao que se 
+  accede dende a galería de imaxes da páxina principal, 
+  para facer visible o proxecto quítase o display:none contido 
+  no atributo style do proxecto que corresponda.  */
   var title = "Proxecto";
 
   var url = window.location.href;
